@@ -1,10 +1,12 @@
 body {
-  background-color: #52489C;
+  background-color: rgb(105, 95, 170);
   font-family: 'Montserrat', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 95vh;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -22,31 +24,41 @@ a {
 }
 
 #button-box {
-  padding: 10px;
+  margin-top: 10px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
-#button-box > * {
+.button {
   font-size: 100%;
   font-family: inherit;
   border: 0;
+  border-radius: 2px;
   padding: 1rem;
   cursor: pointer;
+  background-color: rgb(105, 95, 170);
+  color: white;
 }
 
-#new-quote {
-  font-size: 100%;
-  font-family: inherit;
-  border: 0;
-  padding: 1rem;
-  cursor: pointer;
+.button:hover {
+  background-color: midnightblue;
+}
+
+#tweet-quote {
+  padding: 20px;
+}
+
+#twitter-icon {
+  width: 1.2rem;
+  color: white;
 }
 
 #text {
-  font-size: 1.75rem;
+  font-size: 2rem;
+  text-align: left;
 }
 
 #author {
   text-align: right;
+  margin: 5px 0;
 }
