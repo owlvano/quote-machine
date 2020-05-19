@@ -1,5 +1,5 @@
-import React from 'react';
-import QuoteMachine from './QuoteMachine';
+import React from "react";
+import QuoteMachine from "./QuoteMachine";
 
 const App = () => <QuoteMachine />;
 
