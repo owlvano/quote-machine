@@ -30,6 +30,8 @@ const QuoteMachine = () => {
           id="tweet-quote"
           className="button"
           title="Tweet the quote"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <img id="twitter-icon" src={twitterIcon} alt="Twitter" />
         </a>
